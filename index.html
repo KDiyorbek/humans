@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uz-UZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>HUMANS</title>
+</head>
+<body>
+    <h2>mening <strong>Ḣ</strong>umans raqamim</h2>
+    <div>
+        <div class="items">
+            "Asosiy menyu"
+        </div>
+        <div>
+            <li>...</li>
+        </div>
+    </div>
+
+    <p>bu orqali o'zingizga keragini tanlang: 
+        <select id="mySelect" onchange="myFun()">
+          <option value="number">mening Raqamim</option>
+          <option value="tariff">mening Tarifim</option>
+          <option value="apps">mening ilovalarim</option>
+          <option value="services">mening Xizmatlarim</option>
+        </select>
+        </p>
+        
+        <p id="display"></p>
+        
+        <script>
+        function myFun() {
+          var x = document.getElementById("mySelect").value;
+          document.getElementById("display").innerHTML = "⁕  " + x + "-ni tanladingiz.";
+        }
+        </script>
+</body>
+</html>

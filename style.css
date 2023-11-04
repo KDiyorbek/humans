@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+strong {
+  color: #fed234;
+}
+
+.items {
+  color: purple;
+}

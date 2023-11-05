@@ -8,7 +8,7 @@ h2 {
   border: 1px solid;
   border-radius: 10px 100px / 120px;
   width: 370px;
-  height: 32px;
+  height: 30px;
 }
 
 strong {
@@ -20,7 +20,9 @@ strong {
   font-style: italic;
 }
 
-p.post {
+.post {
   font-size: larger;
   font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+  color: darkslategrey;
 }

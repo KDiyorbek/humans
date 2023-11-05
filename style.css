@@ -20,7 +20,7 @@ strong {
   font-style: italic;
 }
 
-.post {
+p.post {
   font-size: larger;
   font-family: 'Courier New', Courier, monospace;
 }

@@ -22,16 +22,35 @@
         <select id="mySelect" onchange="myFun()">
           <option value="raqam">mening Raqamim</option>
           <option value="tarif">mening Tarifim</option>
-          <option value="ilovalar">mening ilovalarim</option>
+          <option value="ilovalar">mening Ilovalarim</option>
           <option value="xizmatlar">mening Xizmatlarim</option>
         </select>
         </p>
         <p id="display"></p>
-        
+
+        <hr>
+
+        <p>Humans.uz: <button onclick="myH()">asl sahifa</button></p>
+        <p>w3schools: <button onclick="myR()">Responsive with CSS</button></p>
+        <p>w3schools: <button onclick="myP()">flexed Pic-s</button></p>
+        <p>CodeOpen: <button onclick="myFC()">flex Cards</button></p>
+
         <script>
         function myFun() {
           var x = document.getElementById("mySelect").value;
           document.getElementById("display").innerHTML = "⁕  " + x + "-ni tanladingiz.";
+        }
+        function myH() {
+            location.replace("https://www.humans.uz/uz")
+        }
+        function myR() {
+            location.replace("https://www.w3schools.com/css/css_rwd_intro.asp")
+        }
+        function myP() {
+        location.replace("https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery")
+        }
+        function myFC() {
+            location.replace("https://codepen.io/mcraiganthony/pen/NxGxqm")
         }
         </script>
 </body>

@@ -7,7 +7,7 @@ h2 {
   text-align: center;
   border: 1px solid;
   border-radius: 10px 100px / 120px;
-  width: 370px;
+  width: 350px;
   height: 30px;
 }
 
@@ -18,4 +18,8 @@ strong {
 .items {
   color: purple;
   font-style: italic;
+}
+
+.codes {
+  color: rgb(40, 20, 0);
 }

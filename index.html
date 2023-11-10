@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="Red-Line.css" />
     <title>HUMANS</title>
 </head>
 <body>
@@ -29,28 +30,24 @@
         <p id="display"></p>
 
         <hr>
+        <iframe src="https://humans.uz/uz/telegram-bot">🤖 Telegram Bot</iframe>
+        <hr>
 
-        <p class="post">Humans.uz: <button onclick="myH()">asl sahifa</button></p>
-        <p class="post">w3schools: <button onclick="myR()">Responsive with CSS</button></p>
-        <p class="post">w3schools: <button onclick="myP()">flexed Pic-s</button></p>
-        <p class="post">CodeOpen: <button onclick="myFC()">flex Cards</button></p>
+        <div class="flex-container">
+            <div class="flex-1">Mobil aloqa <button>📱</button></div>
+            <div class="flex-2">Mening raqamim <button>🔢</button></div>
+            <div class="flex-3">To'lovlar <button>💸</button></div>
+            <div class="flex-4">Xizmatlar <button>⚙</button></div>
+            <div class="flex-5">Raqam tanlash <button>🔍</button></div>
+            <div class="flex-6">Tarifni hisoblash <button>🧮</button></div>
+            <div class="flex-7">Chet elda aloqa <button>🗺</button></div>
+            <div class="flex-8">Operator yangiliklari <button>📰</button></div>
+          </div>
 
         <script>
         function myFun() {
           var x = document.getElementById("mySelect").value;
           document.getElementById("display").innerHTML = "⁕  " + x + "-ni tanladingiz.";
-        }
-        function myH() {
-            location.replace("https://www.humans.uz/uz")
-        }
-        function myR() {
-            location.replace("https://www.w3schools.com/css/css_rwd_intro.asp")
-        }
-        function myP() {
-        location.replace("https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery")
-        }
-        function myFC() {
-            location.replace("https://codepen.io/mcraiganthony/pen/NxGxqm")
         }
         </script>
 </body>

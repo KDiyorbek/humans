@@ -1,0 +1,32 @@
+#  H T M L
+
+<p class="post">Humans.uz: <button onclick="myH()">asl sahifa</button></p>
+<p class="post">w3schools: <button onclick="myR()">Responsive with CSS</button></p>
+<p class="post">w3schools: <button onclick="myP()">flexed Pic-s</button></p>
+<p class="post">CodeOpen: <button onclick="myFC()">flex Cards</button></p>
+
+
+#   C S S
+
+.post {
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+  color: darkslategrey;
+}
+
+
+#  JavaScript
+
+function myH() {
+            location.replace("https://www.humans.uz/uz")
+        }
+        function myR() {
+            location.replace("https://www.w3schools.com/css/css_rwd_intro.asp")
+        }
+        function myP() {
+        location.replace("https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery")
+        }
+        function myFC() {
+            location.replace("https://codepen.io/mcraiganthony/pen/NxGxqm")
+        }

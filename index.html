@@ -19,15 +19,20 @@
         </div>
     </div>
 
-    <p>bu orqali o'zingizga keragini tanlang: 
+    <p>⚡ tezkor <bold>Kodlar</bold>ni tanlang: 
         <select id="mySelect" onchange="myFun()">
-          <option value="raqam">mening Raqamim</option>
-          <option value="tarif">mening Tarifim</option>
-          <option value="ilovalar">mening Ilovalarim</option>
-          <option value="xizmatlar">mening Xizmatlarim</option>
+          <option value="*110#">mening Hisobim va Keshbekim</option>
+          <option value="*111#">cheksiz Telegramni ulash</option>
+          <option value="*113#">Keshbekdan foydalanishni o'chirish/yoqish</option>
+          <option value="*114#">cheksiz Tarifni ulash</option>
+          <option value="tel:*115#">bepul SUPER NOL-ni ulash</option>
+          <option value="*116#">ulangan kartadan Avto-to'lovni o'chirish/yoqish</option>
+          <option value="*117#">joriy tarifga Daqiqa/Gigabaytni ulash</option>
+          <option value="*118#">joriy Tarifni (arzonroqga) o'zgartirish</option>
         </select>
-        </p>
         <p id="display"></p>
+        </p>
+        
 
         <hr>
         <iframe src="https://humans.uz/uz/telegram-bot">🤖 Telegram Bot</iframe>
@@ -47,7 +52,7 @@
         <script>
         function myFun() {
           var x = document.getElementById("mySelect").value;
-          document.getElementById("display").innerHTML = "⁕  " + x + "-ni tanladingiz.";
+          document.getElementById("display").innerHTML = "  " + x + "-ni tering.";
         }
         </script>
 </body>

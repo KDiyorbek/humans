@@ -27,6 +27,6 @@ span {
   display: inline-block;
 }
 
-button {
+.button {
   float: inline-end;
 }

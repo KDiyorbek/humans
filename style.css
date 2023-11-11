@@ -6,8 +6,7 @@
 .center {
   text-align: center;
   border: 1px solid;
-  border-radius: 10px 100px / 120px;
-  width: 330px;
+  border-radius: 1px 100px / 100px;
   height: 27px;
 }
 
@@ -24,6 +23,6 @@ strong {
   color: rgb(40, 20, 0);
 }
 
-span, p {
+span {
   display: inline-block;
 }

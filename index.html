@@ -18,7 +18,7 @@
     </div>
 
     <p class="codes">
-      ⚡ tezkor <mark>Kodlar</mark>ni tanlang:
+      ⚡ tezkor <mark> Kodlar </mark>ni tanlang:
       <select id="mySelect" onchange="myFun()">
         <option value="*110#">mening Hisobim va Keshbekim</option>
         <option value="*111#">cheksiz Telegramni ulash</option>
@@ -29,8 +29,8 @@
         <option value="*117#">joriy tarifga Daqiqa/Gigabaytni ulash</option>
         <option value="*118#">joriy Tarifni (arzonroqga) o'zgartirish</option>
       </select>
-      <p id="display" class="ussd"></p>
     </p>
+    <p id="display"></p>
     <hr>
     <!-- <iframe src="https://humans.uz/uz/telegram-bot">🤖 Telegram Bot</iframe> -->
     <hr>
@@ -48,7 +48,7 @@
     <script>
     function myFun() {
       var x = document.getElementById("mySelect").value;
-      document.getElementById("display").innerHTML = "  " + x + "-ni tering.";
+      document.getElementById("display").innerHTML = " 📞 " + x + " -ni tering.";
     }
     </script>
   </body>

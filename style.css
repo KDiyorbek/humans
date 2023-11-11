@@ -19,11 +19,17 @@ strong {
   font-style: italic;
 }
 
-.codes {
-  color: rgb(40, 20, 0);
+mark {
+  color: black;
+  background-color: #c9c9c9;
+  font-style: bold;
+  border-radius: 4px;
 }
 
-.ussd {
-  float: right;
-  bottom: 10px;
+.codes {
+  color: rgb(40, 2, 0);
+}
+
+p#display {
+  color: darkred;
 }

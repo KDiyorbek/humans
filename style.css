@@ -3,12 +3,12 @@
   padding: 0px;
 } */
 
-h2 {
+.center {
   text-align: center;
   border: 1px solid;
   border-radius: 10px 100px / 120px;
-  width: 350px;
-  height: 30px;
+  width: 330px;
+  height: 27px;
 }
 
 strong {
@@ -22,4 +22,8 @@ strong {
 
 .codes {
   color: rgb(40, 20, 0);
+}
+
+span, p {
+  display: inline-block;
 }

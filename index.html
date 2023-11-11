@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="uz-UZ">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="Red-Line.css" />
     <title>HUMANS</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>mening <strong>Ḣ</strong>umans raqamim</h2>
     <div>
-        <div class="items">
-            "Asosiy menyu"
-        </div>
-        <div>
-            <li>...</li>
-            <ul>---</ul>
-        </div>
+      <div class="items">
+        "Asosiy menyu"
+      </div>
+      <div>
+        <li>...</li>
+        <ul>---</ul>
+      </div>
     </div>
 
     <p class="codes">
-      ⚡ tezkor <code>Kodlar</code>ni tanlang:
+      ⚡ tezkor <mark>Kodlar</mark>ni tanlang:
       <select id="mySelect" onchange="myFun()">
-          <option value="*110#">mening Hisobim va Keshbekim</option>
-          <option value="*111#">cheksiz Telegramni ulash</option>
-          <option value="*113#">Keshbekdan foydalanishni o'chirish/yoqish</option>
-          <option value="*114#">cheksiz Tarifni ulash</option>
-          <option value="*115#">bepul SUPER NOL-ni ulash</option>
-          <option value="*116#">ulangan kartadan Avto-to'lovni o'chirish/yoqish</option>
-          <option value="*117#">joriy tarifga Daqiqa/Gigabaytni ulash</option>
-          <option value="*118#">joriy Tarifni (arzonroqga) o'zgartirish</option>
-        </select>
+        <option value="*110#">mening Hisobim va Keshbekim</option>
+        <option value="*111#">cheksiz Telegramni ulash</option>
+        <option value="*113#">Keshbekdan foydalanishni o'chirish/yoqish</option>
+        <option value="*114#">cheksiz Tarifni ulash</option>
+        <option value="*115#">bepul SUPER NOL-ni ulash</option>
+        <option value="*116#">ulangan kartadan Avto-to'lovni o'chirish/yoqish</option>
+        <option value="*117#">joriy tarifga Daqiqa/Gigabaytni ulash</option>
+        <option value="*118#">joriy Tarifni (arzonroqga) o'zgartirish</option>
+      </select>
+      <span><p id="display"></p></span>
     </p>
-    <p id="display"></p>
+    <hr>
+    <!-- <iframe src="https://humans.uz/uz/telegram-bot">🤖 Telegram Bot</iframe> -->
+    <hr>
+    <div class="flex-container">
+      <div class="flex-1">Mobil aloqa <button>📱</button></div>
+      <div class="flex-2">Mening raqamim <button>🔢</button></div>
+      <div class="flex-3">To'lovlar <button>💸</button></div>
+      <div class="flex-4">Xizmatlar <button>⚙</button></div>
+      <div class="flex-5">Raqam tanlash <button>🔍</button></div>
+      <div class="flex-6">Tarifni hisoblash <button>🧮</button></div>
+      <div class="flex-7">Chet elda aloqa <button>🗺</button></div>
+      <div class="flex-8">Operator yangiliklari <button>📰</button></div>
+    </div>
 
-        <hr>
-        <!-- <iframe src="https://humans.uz/uz/telegram-bot">🤖 Telegram Bot</iframe> -->
-        <hr>
-
-        <div class="flex-container">
-            <div class="flex-1">Mobil aloqa <button>📱</button></div>
-            <div class="flex-2">Mening raqamim <button>🔢</button></div>
-            <div class="flex-3">To'lovlar <button>💸</button></div>
-            <div class="flex-4">Xizmatlar <button>⚙</button></div>
-            <div class="flex-5">Raqam tanlash <button>🔍</button></div>
-            <div class="flex-6">Tarifni hisoblash <button>🧮</button></div>
-            <div class="flex-7">Chet elda aloqa <button>🗺</button></div>
-            <div class="flex-8">Operator yangiliklari <button>📰</button></div>
-          </div>
-
-        <script>
-        function myFun() {
-          var x = document.getElementById("mySelect").value;
-          document.getElementById("display").innerHTML = "  " + x + "-ni tering.";
-        }
-        </script>
-</body>
+    <script>
+    function myFun() {
+      var x = document.getElementById("mySelect").value;
+      document.getElementById("display").innerHTML = "  " + x + "-ni tering.";
+    }
+    </script>
+  </body>
 </html>

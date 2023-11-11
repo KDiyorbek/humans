@@ -26,3 +26,7 @@ strong {
 span {
   display: inline-block;
 }
+
+button {
+  float: inline-end;
+}

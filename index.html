@@ -8,7 +8,7 @@
     <title>HUMANS</title>
   </head>
   <body>
-    <h2 class="center">mening <strong>Ḣ</strong>umans raqamim</h2>
+    <h3 class="center">mening <strong>Ḣ</strong>umans raqamim</h3>
     <div>
       <div class="items">
         "Asosiy menyu"
@@ -18,7 +18,7 @@
     </div>
 
     <p class="codes">
-      ⚡ tezkor <mark> Kodlar </mark>ni tanlang:
+      ⚡ tezkor KODLAR-ni tanlang:
       <select id="mySelect" onchange="myFun()">
         <option value="*110#">mening Hisobim va Keshbekim</option>
         <option value="*111#">cheksiz Telegramni ulash</option>
@@ -38,11 +38,22 @@
       <div class="flex-1">
         <button>
           <i class="bi bi-phone"></i>
-          "Mobil aloqa"
+          <a href="https://apps.humans.uz/telecom"></a>
+          Mobil aloqa
         </button>
       </div>
-      <div class="flex-2">Mening raqamim <button><i class="bi bi-sim"></i></button></div>
-      <div class="flex-3">To'lovlar <button>💸</button></div>
+      <div class="flex-2">
+        <button>
+          <i class="bi bi-sim"></i>
+          <a href="https://apps.humans.uz/auth/humans_number">Mening raqamim</a>
+        </button>
+      </div>
+      <div class="flex-3">
+        <button>
+          <i class="bi bi-cash-coin"></i>
+          To'lovlar
+        </button>
+      </div>
       <div class="flex-4">Xizmatlar <button>⚙</button></div>
       <div class="flex-5">Raqam tanlash <button>🔍</button></div>
       <div class="flex-6">Tarifni hisoblash <button>🧮</button></div>
@@ -53,7 +64,7 @@
     <script>
     function myFun() {
       var x = document.getElementById("mySelect").value;
-      document.getElementById("display").innerHTML = " \uF5BC " + x + " -ni tering.";
+      document.getElementById("display").innerHTML = " 📞 " + x + " -ni tering.";
     }
     </script>
   </body>

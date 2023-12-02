@@ -11,57 +11,57 @@
   }
   
   .flex-1 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid red;
   }
   
   .flex-2 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid green;
   }
   
   .flex-3 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid orange;
   }
   
   .flex-4 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid aqua;
   }
   
   .flex-5 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid pink;
   }
   
   .flex-6 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid brown;
   }
   
   .flex-7 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid gold;
   }
   
   .flex-8 {
-    height: auto;
-    padding: 10px;
+    height: 17vh;
+    padding: 12px;
     flex: 12.5%;
     border: 0.1px solid lime;
   }

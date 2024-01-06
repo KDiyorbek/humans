@@ -12,7 +12,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid red;
-  background-image: url('./pics/mobile.jpg')
 }
 
 .flex-2 {
@@ -20,7 +19,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid green;
-  background-image: url('./pics/sim-card.webp');
 }
 
 .flex-3 {
@@ -28,7 +26,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid orange;
-  background-image: url('./pics/payment.webp');
 }
 
 .flex-4 {
@@ -36,7 +33,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid aqua;
-  background-image: url('./pics/cards.webp');
 }
 
 .flex-5 {
@@ -44,7 +40,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid pink;
-  background-image: url('./pics/visa-card.jpg');
 }
 
 .flex-6 {
@@ -52,7 +47,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid brown;
-  background-image: url('./pics/cash-card.webp');
 }
 
 .flex-7 {
@@ -60,7 +54,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid gold;
-  background-image: url('./pics/add-card.webp');
 }
 
 .flex-8 {
@@ -68,7 +61,7 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid lime;
-  background-image: url('./pics/send-money.webp');
+  background-color: transparent;
 }
 
 .flex-9 {
@@ -82,7 +75,7 @@
   height: 4em;
   padding: 12px;
   flex: 10%;
-  border: 0.1px solid cyan;
+  border: 0.1px solid gray;
 }
 
 @media screen and (width: 340px) {

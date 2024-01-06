@@ -10,71 +10,78 @@
 .flex-1 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid red;
 }
 
 .flex-2 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid green;
 }
 
 .flex-3 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid orange;
 }
 
 .flex-4 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid aqua;
 }
 
 .flex-5 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid pink;
 }
 
 .flex-6 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid brown;
 }
 
 .flex-7 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid gold;
 }
 
 .flex-8 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid lime;
 }
 
 .flex-9 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid plum;
 }
 
 .flex-10 {
   height: 4em;
   padding: 12px;
-  flex: 10%;
+  flex: 9%;
   border: 0.1px solid teal;
+}
+
+.flex-11 {
+  height: 4em;
+  padding: 12px;
+  flex: 10%;
+  border: 0.1px solid gray;
 }
 
 @media screen and (width: 340px) {

@@ -61,7 +61,6 @@
   padding: 12px;
   flex: 10%;
   border: 0.1px solid lime;
-  background-color: transparent;
 }
 
 .flex-9 {
@@ -75,7 +74,7 @@
   height: 4em;
   padding: 12px;
   flex: 10%;
-  border: 0.1px solid gray;
+  border: 0.1px solid teal;
 }
 
 @media screen and (width: 340px) {

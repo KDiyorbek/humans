@@ -1,91 +1,84 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  gap: 7px;
+  gap: 4px;
   font-size: 40px;
   text-align: center;
 }
 
 .flex-1 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid red;
 }
 
 .flex-2 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid green;
 }
 
 .flex-3 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid orange;
 }
 
 .flex-4 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid aqua;
 }
 
 .flex-5 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid pink;
 }
 
 .flex-6 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid brown;
 }
 
 .flex-7 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid gold;
 }
 
 .flex-8 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid lime;
 }
 
 .flex-9 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid plum;
 }
 
 .flex-10 {
-  height: 4em;
-  padding: 12px;
-  flex: 9%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid teal;
 }
 
 .flex-11 {
-  height: 4em;
-  padding: 12px;
-  flex: 10%;
+  height: 100%;
+  padding: 2%;
+  flex: content;
   border: 0.1px solid gray;
-}
-
-@media screen and (width: 340px) {
-  .flex-1, .flex-2, .flex-3, .flex-4, .flex-5, .flex-6, .flex-7, .flex-8, .flex-9, .flex-10 {
-    flex: 50%;
-  }
 }

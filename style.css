@@ -15,6 +15,20 @@ strong {
   font-style: italic;
 }
 
+select {
+  color: darkred;
+  width: fit-content;
+}
+
+option {
+  color: wheat;
+  background-color: dimgray;
+}
+
+.tg > button {
+  float: right;
+}
+
 .codes {
   color: rgb(40, 2, 0);
 }
@@ -23,6 +37,10 @@ p#display {
   color: darkred;
   text-align: center;
   font-family: "Lucida Console", monospace;
+}
+
+hr {
+  border-style: groove;
 }
 
 a {

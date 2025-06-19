@@ -1,9 +1,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
+body, html {
+  background-color: #242424;
+  height: 100%;
+}
+
 .center {
+  color: #747474;
   text-align: center;
   height: 24px;
   font-size: 17px;
+  font-family: system-ui;
 }
 
 strong {
@@ -12,12 +19,12 @@ strong {
 
 .items {
   color: purple;
-  font-style: italic;
 }
 
 select {
   color: darkred;
   width: fit-content;
+  background-color: lightyellow;
 }
 
 option {
@@ -27,6 +34,9 @@ option {
 
 .tg > button {
   float: right;
+  width: fit-content;
+  color: black;
+  background-color: darkgray;
 }
 
 .codes {
@@ -46,119 +56,48 @@ hr {
 a {
   text-decoration: none;
   color: darkmagenta;
-  font-size: 20px;
 }
 
+i {
+  font-size: x-large;
+}
+
+i:hover {
+  color: pink;
+}
+
+button {
+  color: currentColor;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 2px;
   font-size: 40px;
   text-align: center;
+  height: 90%;
 }
 
-.flex-1 {
-  height: auto;
-  padding: 1%;
+.flex-1, .flex-2, .flex-3, .flex-4, .flex-5, .flex-6, .flex-7, .flex-8, .flex-9, .flex-10, .flex-11, .flex-12, .flex-13, .flex-14 {
+  padding: 0.2%;
   flex: content;
-  border: 0.1px solid red;
 }
 
-.flex-2 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid green;
-}
-
-.flex-3 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid orange;
-}
-
-.flex-4 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid aqua;
-}
-
-.flex-5 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid pink;
-}
-
-.flex-6 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid brown;
-}
-
-.flex-7 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid gold;
-}
-
-.flex-8 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid lime;
-}
-
-.flex-9 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid plum;
-}
-
-.flex-10 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid teal;
-}
-
-.flex-11 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid gray;
-}
-
-.flex-12 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid rosybrown;
-}
-
-.flex-13 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid tomato;
-}
-
-.flex-14 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid indigo;
-}
-
-.flex-15 {
-  height: auto;
-  padding: 1%;
-  flex: content;
-  border: 0.1px solid greenyellow;
-}
+.flex-1 {border: 0.1px solid lightcoral;}
+.flex-2 {border: 0.1px solid green;}
+.flex-3 {border: 0.1px solid lightsalmon;}
+.flex-4 {border: 0.1px solid aqua;}
+.flex-5 {border: 0.1px solid pink;}
+.flex-6 {border: 0.1px solid brown;}
+.flex-7 {border: 0.1px solid goldenrod;}
+.flex-8 {border: 0.1px solid lime;}
+.flex-9 {border: 0.1px solid plum;}
+.flex-10 {border: 0.1px solid teal;}
+.flex-11 {border: 0.1px solid gray;}
+.flex-12 {border: 0.1px solid rosybrown;}
+.flex-13 {border: 0.1px solid tan;}
+.flex-14 {border: 0.1px solid indigo;}

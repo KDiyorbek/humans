@@ -23,7 +23,7 @@ strong {
 
 select {
   color: darkred;
-  width: fit-content;
+  width: auto;
   background-color: lightyellow;
 }
 
@@ -34,7 +34,7 @@ option {
 
 .tg > button {
   float: right;
-  width: fit-content;
+  width: auto;
   color: black;
   background-color: darkgray;
 }
@@ -47,6 +47,17 @@ p#display {
   color: darkred;
   text-align: center;
   font-family: "Lucida Console", monospace;
+}
+
+abbr {
+  text-decoration: line-through red;
+}
+
+p#note {
+  color: cornsilk;
+  font-family: 'Courier New', Courier;
+  font-style: italic;
+  width: 100%;
 }
 
 hr {
@@ -79,7 +90,7 @@ button {
   gap: 2px;
   font-size: 40px;
   text-align: center;
-  height: 90%;
+  height: 100%;
 }
 
 .flex-1, .flex-2, .flex-3, .flex-4, .flex-5, .flex-6, .flex-7, .flex-8, .flex-9, .flex-10, .flex-11, .flex-12, .flex-13, .flex-14 {

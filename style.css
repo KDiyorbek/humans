@@ -8,7 +8,6 @@ body, html {
 .center {
   color: #747474;
   text-align: center;
-  height: 24px;
   font-size: 17px;
   font-family: system-ui;
 }
@@ -23,7 +22,7 @@ strong {
 
 select {
   color: darkred;
-  width: auto;
+  width: 80%;
   background-color: lightyellow;
 }
 
@@ -34,7 +33,7 @@ option {
 
 .tg > button {
   float: right;
-  width: auto;
+  width: 10%;
   color: black;
   background-color: darkgray;
 }
@@ -50,14 +49,12 @@ p#display {
 }
 
 abbr {
-  text-decoration: line-through red;
+  text-decoration: underline red;
 }
 
 p#note {
-  color: cornsilk;
-  font-family: 'Courier New', Courier;
+  color: burlywood;
   font-style: italic;
-  width: 100%;
 }
 
 hr {

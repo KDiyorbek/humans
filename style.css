@@ -56,7 +56,7 @@ p#note {
   display: inline-block;
   color: burlywood;
   font-style: italic;
-  width: 70%;
+  width: fit-content;
 }
 
 hr {
@@ -80,7 +80,7 @@ i:hover {
   display: inline-block;
   color: white;
   background-color: #555555;
-  width: 20%;
+  width: fit-content;
 }
 
 button {

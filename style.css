@@ -31,9 +31,12 @@ option {
   background-color: dimgray;
 }
 
+.tg {
+  text-align: center;
+}
+
 .tg > button {
   float: right;
-  text-align: center;
   width: 10%;
   color: black;
   background-color: darkgray;

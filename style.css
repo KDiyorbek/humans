@@ -33,6 +33,7 @@ option {
 
 .tg > button {
   float: right;
+  text-align: center;
   width: 10%;
   color: black;
   background-color: darkgray;
@@ -56,7 +57,7 @@ p#note {
   display: inline-block;
   color: burlywood;
   font-style: italic;
-  width: fit-content;
+  width: 70%;
 }
 
 hr {
@@ -80,7 +81,7 @@ i:hover {
   display: inline-block;
   color: white;
   background-color: #555555;
-  width: fit-content;
+  width: 20%;
 }
 
 button {

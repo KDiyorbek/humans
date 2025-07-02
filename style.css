@@ -22,7 +22,7 @@ strong {
 
 select {
   color: darkred;
-  width: 80%;
+  width: 85%;
   background-color: lightyellow;
 }
 
@@ -53,8 +53,10 @@ abbr {
 }
 
 p#note {
+  display: inline-block;
   color: burlywood;
   font-style: italic;
+  width: 75%;
 }
 
 hr {
@@ -72,6 +74,13 @@ i {
 
 i:hover {
   color: pink;
+}
+
+.langs > button {
+  display: inline-block;
+  color: white;
+  background-color: #555555;
+  width: 20%;
 }
 
 button {

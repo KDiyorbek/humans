@@ -3,6 +3,7 @@
 body, html {
   background-color: #242424;
   height: 100%;
+  user-select: none;
 }
 
 .center {
@@ -12,13 +13,9 @@ body, html {
   font-family: system-ui;
 }
 
-strong {
-  color: #fed247;
-}
+strong {color: #fed247;}
 
-.items {
-  color: purple;
-}
+.items {color: purple;}
 
 select {
   color: darkred;
@@ -26,13 +23,11 @@ select {
   background-color: lightyellow;
 }
 
+optgroup {font-style: italic;}
+
 option {
   color: wheat;
   background-color: dimgray;
-}
-
-.tg {
-  text-align: center;
 }
 
 .tg > button {
@@ -42,9 +37,7 @@ option {
   background-color: darkgray;
 }
 
-.codes {
-  color: rgb(40, 2, 0);
-}
+.codes {color: rgb(40, 2, 0);}
 
 p#display {
   color: darkred;
@@ -52,9 +45,7 @@ p#display {
   font-family: "Lucida Console", monospace;
 }
 
-abbr {
-  text-decoration: underline red;
-}
+abbr {text-decoration: underline red;}
 
 p#note {
   display: inline-block;
@@ -63,22 +54,15 @@ p#note {
   width: 70%;
 }
 
-hr {
-  border-style: groove;
-}
+hr {border-style: groove;}
 
 a {
   text-decoration: none;
   color: darkmagenta;
 }
 
-i {
-  font-size: x-large;
-}
-
-i:hover {
-  color: pink;
-}
+i {font-size: x-large;}
+i:hover {color: pink;}
 
 .langs > button {
   display: inline-block;

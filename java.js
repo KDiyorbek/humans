@@ -1,9 +1,9 @@
 const translations = {
         en: {
-          "title": "my <strong>Ḣumans</strong> number",
-          "site-link": "site",
+          "center": "my <strong>Ḣumans</strong> number",
+          "tg-a": "site",
           "optgroup-label": "manage your number with these codes",
-          "select-prompt": "⚡ select instant Codes:",
+          "select": "⚡ select instant Codes:",
           "display": "* contact center: call <a href='tel:1234'>1234</a>.",
           "note": "* this is not an official site and is not <abbr title='(scam)'>fake</abbr>.",
           "btn-mobile": "<i class='bi bi-phone'><br><br></i>Mobile",
@@ -22,7 +22,7 @@ const translations = {
           "btn-settings": "<i class='bi bi-person-gear'><br><br></i>Settings"
         },
         ru: {
-          "title": "мой номер <strong>Ḣumans</strong>",
+          "center": "мой <strong>Ḣumans</strong> номер",
           "site-link": "сайт",
           "optgroup-label": "управляйте своим номером с помощью этих кодов",
           "select-prompt": "⚡ выберите мгновенные Коды:",
@@ -44,7 +44,7 @@ const translations = {
           "btn-settings": "<i class='bi bi-person-gear'><br><br></i>Настройки"
         },
         uz: {
-            "title": "mening <strong>Ḣumans</strong> raqamim",
+            "center": "mening <strong>Ḣumans</strong> raqamim",
             "site-link": "sayt",
             "optgroup-label": "ushbu kodlar orqali raqamingizni boshqaring",
             "select-prompt": "⚡ tezkor Kodlarni tanlang:",

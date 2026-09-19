@@ -1,8 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
-body, html {
-  background-color: #242424;
-  height: 100%;
+body {
+  background-color: #121212;
   user-select: none;
 }
 
@@ -30,9 +29,9 @@ option {
   background-color: dimgray;
 }
 
-.tg > button {
-  float: right;
-  width: 10%;
+.lang button {
+  float: inline-end;
+  width: 5%;
   color: black;
   background-color: darkgray;
 }
@@ -40,43 +39,34 @@ option {
 .codes {color: rgb(40, 2, 0);}
 
 p#display {
-  color: darkred;
+  color: tomato;
   text-align: center;
   font-family: "Lucida Console", monospace;
 }
+p a {
+  color: violet;
+  font-weight: bold;
+}
 
-abbr {text-decoration: underline red;}
-
+.tg {
+  text-align: left;
+  background-color: #212121;
+}
 p#note {
   display: inline-block;
   color: burlywood;
   font-style: italic;
-  width: 70%;
 }
 
 hr {border-style: groove;}
 
 a {
   text-decoration: none;
-  color: darkmagenta;
+  color: black;
 }
 
 i {font-size: x-large;}
 i:hover {color: pink;}
-
-.langs > button {
-  display: inline-block;
-  color: white;
-  background-color: #555555;
-  width: 20%;
-}
-
-button {
-  color: currentColor;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-}
 
 .flex-container {
   display: flex;
@@ -84,25 +74,39 @@ button {
   gap: 2px;
   font-size: 40px;
   text-align: center;
+}
+.flex-container a {
+  color: darkmagenta;
+}
+.flex-container button {
+  color: currentColor;
   height: 100%;
+  width: 100%;
+  background-color: transparent;
 }
 
 .flex-1, .flex-2, .flex-3, .flex-4, .flex-5, .flex-6, .flex-7, .flex-8, .flex-9, .flex-10, .flex-11, .flex-12, .flex-13, .flex-14 {
-  padding: 0.2%;
+  padding: 2px;
+  border-radius: 5px;
   flex: content;
 }
 
 .flex-1 {border: 0.1px solid lightcoral;}
 .flex-2 {border: 0.1px solid green;}
 .flex-3 {border: 0.1px solid lightsalmon;}
-.flex-4 {border: 0.1px solid aqua;}
-.flex-5 {border: 0.1px solid pink;}
+.flex-4 {border: 0.1px dotted aqua;}
+.flex-5 {border: 0.1px dotted pink;}
 .flex-6 {border: 0.1px solid brown;}
 .flex-7 {border: 0.1px solid goldenrod;}
-.flex-8 {border: 0.1px solid lime;}
-.flex-9 {border: 0.1px solid plum;}
+.flex-8 {border: 0.1px dotted lime;}
+.flex-9 {border: 0.1px dotted plum;}
 .flex-10 {border: 0.1px solid teal;}
-.flex-11 {border: 0.1px solid gray;}
-.flex-12 {border: 0.1px solid rosybrown;}
+.flex-11 {border: 0.1px solid lightskyblue;}
+.flex-12 {border: 0.1px dotted rosybrown;}
 .flex-13 {border: 0.1px solid tan;}
 .flex-14 {border: 0.1px solid indigo;}
+
+.flex-4 a, .flex-8 a, .flex-9 a, .flex-12 a {
+  color: #505050;
+  cursor: not-allowed;
+}

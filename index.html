@@ -12,35 +12,35 @@
     <h3 class="center">mening <strong>Ḣumans</strong> raqamim</h3>
     <div class="lang">
       <button>
-        <a href="en/">🌐</a>
+        <a href="en/"><i class="bi bi-translate"></i></a>
       </button>
     </div>
     <p class="codes">
       <select id="mySelect" onchange="myFun()">
-        <optgroup label="ushbu kodlar orqali raqamingizni boshqaring">
-          <option value="<!<">📲⚡ tezkor Kodlarni tanlang:</option><hr>
+        <optgroup label="ushbu kodlar orqali raqamni boshqarish">
+          <option value="<!<">📲⚡ tezkor Kodlarni tanlash:</option><hr>
           <option value="*100#">qo'shimcha 100MB-ni ulash</option>
           <option value="*104#">cheksiz Daqiqa va Gigabaytni tarif tugaguncha ulash</option>
           <option value="*105#">to'liq cheksizlikni Uch kunga ulash</option>
           <option value="*106#">to'liq cheksizlikni Bir kunga ulash</option>
-          <option value="*107#">Internet/Daqiqa qoldig'ini tekshirish</option>
-          <option value="*110#">mening Hisobim va Keshbekim</option>
+          <option value="*107#">Gigabayt va Daqiqa qoldig'ini tekshirish</option>
+          <option value="*110#">Hisob va Keshbek balansini tekshirish</option>
           <option value="*111#">cheksiz Ilovalarni ulash</option>
           <option value="*113#">Keshbekdan foydalanishni o'chirish/yoqish</option>
-          <option value="*114#">cheksiz Tarifni ulash</option>
-          <option value="*115#">bepul TEKIN-ni ulash</option>
+          <option value="*114#">kamroq/ko'proq Gigabayt va Daqiqali tarifni ulash</option>
+          <option value="*115#">bepul "TEKIN" tarifini ulash</option>
           <option value="*116#">ulangan kartadan Avto-to'lovni o'chirish/yoqish</option>
-          <option value="*117#">joriy tarifga Daqiqa/Gigabaytni ulash</option>
+          <option value="*117#">joriy tarifga Daqiqa yoki Gigabayt'ni ulash</option>
           <option value="*118#">joriy Tarifni (arzonroqga) o'zgartirish</option>
           <option value="*121#">hoziroq tarifni cheksiz Daqiqa va 7GB-ga o'zgartirish</option>
           <option value="*122#">hoziroq tarifni cheksiz Daqiqa va GB-ga o'zgartirish</option>
-          <option value="*123#">hoziroq Super VIP tarifiga o'zgartirish</option>
-          <option value="*555#">umrbod cheksiz Super VIP doimiy tarifini ulash</option>
-          <option value="*777#">ikki oyni to'lang, +1 oylik tarifni sovg'aga oling</option>
+          <option value="*123#">hoziroq "Super VIP" tarifiga o'zgartirish</option>
+          <option value="*555#">umrbod cheksiz "Super VIP doimiy" tarifini ulash</option>
+          <option value="*777#">ikki oyni to'lash, va +1 oylik tarifni Sovg'aga olish</option>
         </optgroup>
       </select>
     </p>
-    <p id="display">* aloqa markazi:  <a href="tel:1234">1234</a> ga bog'laning.</p>
+    <p id="display">* aloqa markazi:  <a href="tel:1234">1234</a>.</p>
     <hr>
     <div class="flex-container">
       <div class="flex-1">
@@ -58,28 +58,28 @@
         </a>
       </div>
       <div class="flex-3">
+        <a href="https://apps.humans.uz/auth/top_up">
+          <button type="button">
+            <i class="bi bi-plus-circle-fill"><br><br></i>Hisobni to'ldirish
+          </button>
+        </a>
+      </div>
+      <div class="flex-4">
         <a href="https://apps.humans.uz/auth/choose_tariff">
           <button type="button">
             <i class="bi bi-clipboard-data"><br><br></i>Tarifni boshqarish
           </button>
         </a>
       </div>
-      <div class="flex-4">
-        <a href="https://apps.humans.uz/payment_catalog">
-          <button type="button">
-            <i class="bi bi-cash-coin"><br><br></i>To'lovlar
-          </button>
-        </a>
-      </div>
       <div class="flex-5">
-        <a href="https://apps.humans.uz/auth/subscription/purchase/ST_001">
+        <a href="https://apps.humans.uz/auth/add_card">
           <button type="button">
-            <i class="bi bi-bar-chart"><br><br></i>Operator <br>nomini o'zgartirish
+            <i class="bi bi-credit-card-2-front"><br><br></i>Karta qo'shish
           </button>
         </a>
       </div>
       <div class="flex-6">
-        <a href="https://apps.humans.uz/auth/humans_card">
+        <a href="https://apps.humans.uz/auth/card">
           <button type="button">
             <i class="bi bi-credit-card"><br><br></i>Kartalar
           </button>
@@ -93,9 +93,9 @@
         </a>
       </div>
       <div class="flex-8">
-        <a href="https://apps.humans.uz/auth/add_card">
+        <a href="https://apps.humans.uz/payment_catalog">
           <button type="button">
-            <i class="bi bi-credit-card-2-front"><br><br></i>Karta qo'shish
+            <i class="bi bi-cash-coin"><br><br></i>To'lovlar
           </button>
         </a>
       </div>
@@ -107,34 +107,41 @@
         </a>
       </div>
       <div class="flex-10">
-        <a href="https://apps.humans.uz/auth/top_up">
+        <a href="https://apps.humans.uz/auth/send_cashback">
           <button type="button">
-            <i class="bi bi-plus-circle-fill"><br><br></i>Hisobni to'ldirish
+            <i class="bi bi-send-fill"><br><br></i>Keshbek o'tkazish
           </button>
         </a>
       </div>
       <div class="flex-11">
-        <a href="https://apps.humans.uz/auth/buy_apps">
+        <a href="https://apps.humans.uz/auth/subscription/purchase/ST_001">
           <button type="button">
-            <i class="bi bi-infinity"><br><br></i>tarifga ilova(lar) qo'shish
+            <i class="bi bi-bar-chart"><br><br></i>Operator <br>nomini o'zgartirish
           </button>
         </a>
       </div>
       <div class="flex-12">
-        <a href="https://market.humans.uz">
+        <a href="https://yaxshi.humans.uz">
           <button type="button">
-            <i class="bi bi-cart3"><br><br></i>Market / bozor
+            <i class="bi bi-basket2"><br><br></i>HUMANS Yaxshi
           </button>
         </a>
       </div>
       <div class="flex-13">
-        <a href="https://apps.humans.uz/support">
+        <a href="https://market.humans.uz">
           <button type="button">
-            <i class="bi bi-chat-text"><br><br></i>Qo'llab-quvvatlash xizmati
+            <i class="bi bi-cart3"><br><br></i>HUMANS Market
           </button>
         </a>
       </div>
       <div class="flex-14">
+        <a href="https://apps.humans.uz/support">
+          <button type="button">
+            <i class="bi bi-chat-text"><br><br></i>Aloqa xizmati
+          </button>
+        </a>
+      </div>
+      <div class="flex-15">
         <a href="https://apps.humans.uz/settings">
           <button type="button">
             <i class="bi bi-person-gear"><br><br></i>Sozlamalar
@@ -144,7 +151,7 @@
     </div>
     <div class="tg">
       <button>
-        <a href="test.html" target="_self">rasmiy HUMANS sayti</a> 
+        <a href="page/" target="_self">HUMANS sayti</a> 
       </button>
       <p id="note">← xizmatlardan qulay va oson foydalaning!</p>
     </div>
@@ -152,7 +159,7 @@
     <script>
     function myFun() {
       var x = document.getElementById("mySelect").value;
-      document.getElementById("display").innerHTML = " 📞 " + x + " -ni tering.";
+      document.getElementById("display").innerHTML = "📞 " + x + " -ni tering";
     }
     </script>
   </body>

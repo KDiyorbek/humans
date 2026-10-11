@@ -17,12 +17,17 @@ strong {color: #fed247;}
 .items {color: purple;}
 
 select {
-  color: darkred;
+  color: oldlace;
   width: 85%;
-  background-color: lightyellow;
+  background-color: #202020;
+  border: none;
 }
 
-optgroup {font-style: italic;}
+optgroup {
+  font-style: italic;
+  font-weight: 100;
+  color: lightgray;
+}
 
 option {
   color: wheat;
@@ -58,7 +63,11 @@ p a {
 .tg {
   text-align: center;
   font-size: 12px;
+  width: 100%;
   background-color: #212121;
+}
+.tg button {
+  font-size: 10px;
 }
 p#note {
   display: inline-block;
@@ -75,6 +84,7 @@ a {
 
 i {font-size: x-large;}
 i:hover {color: pink;}
+
 
 .flex-container {
   display: flex;

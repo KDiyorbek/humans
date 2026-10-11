@@ -121,11 +121,11 @@ i:hover {color: pink;}
 .flex-10 {border: 0.1px solid teal;}
 .flex-11 {border: 0.1px solid lightskyblue;}
 .flex-12 {border: 0.1px solid rosybrown;}
-.flex-13 {border: 0.1px solid tan;}
+.flex-13 {border: 0.1px dotted tan;}
 .flex-14 {border: 0.1px solid indigo;}
 .flex-15 {border: 0.1px solid lightgreen}
 
-.flex-5 a, .flex-8 a, .flex-9 a {
+.flex-5 a, .flex-8 a, .flex-9 a, .flex-13 a {
   color: #505050;
   cursor: not-allowed;
 }
